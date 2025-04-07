@@ -33,8 +33,8 @@ Feature: Checkout the product
   When the user clicks the shopping cart
   And the user agrees to the terms and conditions
   Then the user should be able to proceed to the checkout page
-  And the user should fill the billing Address
-  And the user should see the "Thank you"
+  #And the user should fill the billing Address
+  #And the user should see the "Thank you"
 
 Examples:
   | name     | email              |

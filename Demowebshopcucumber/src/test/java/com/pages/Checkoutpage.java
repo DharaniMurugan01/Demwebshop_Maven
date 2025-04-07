@@ -25,16 +25,16 @@ public class Checkoutpage {
   @FindBy(xpath="//button[@name='checkout']")
   public WebElement checkout;
   
-  @FindBy(xpath="//input[@title='Continue']")
-  public WebElement continuee;
-  @FindBy(xpath="(//input[@name='paymentmethod'])[2]")
-  public WebElement paymethod;
-  @FindBy(xpath="//input[@class='button-1 payment-method-next-step-button']")
-  public WebElement paycontinue;
-  @FindBy(xpath="(//input[@type='button'])[4]")
-  public WebElement infocontinue;
-  @FindBy(xpath="(//input[@type='button'])[5]")
-  public WebElement confirm;
+//  @FindBy(xpath="//input[@title='Continue']")
+//  public WebElement continuee;
+//  @FindBy(xpath="(//input[@name='paymentmethod'])[2]")
+//  public WebElement paymethod;
+//  @FindBy(xpath="//input[@class='button-1 payment-method-next-step-button']")
+//  public WebElement paycontinue;
+//  @FindBy(xpath="(//input[@type='button'])[4]")
+//  public WebElement infocontinue;
+//  @FindBy(xpath="(//input[@type='button'])[5]")
+//  public WebElement confirm;
   @FindBy(xpath="//h1[text()='Thank you']")
   public WebElement thank;
 }

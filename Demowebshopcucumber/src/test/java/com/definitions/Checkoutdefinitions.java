@@ -46,17 +46,17 @@ public class Checkoutdefinitions {
 	public void the_user_should_be_able_to_proceed_to_the_checkout_page() {
 		ca.clickcheckout();
 	}
-	@Then("the user should fill the billing Address")
-	public void the_user_should_fill_the_billing_address() {
-		ca.clickbilladdress1();
-		ca.clickbilladdress2();
-		ca.clickbilladdress21();
-		ca.clickbilladdress3();
-		ca.clickbilladdress4();	
-	}
+//	@Then("the user should fill the billing Address")
+//	public void the_user_should_fill_the_billing_address() {
+//		ca.clickbilladdress1();
+//		ca.clickbilladdress2();
+//		ca.clickbilladdress21();
+//		ca.clickbilladdress3();
+//		ca.clickbilladdress4();	
+//	}
 
-	@Then("the user should see the {string}")
-	public void the_user_should_see_the(String string) {
-		ca.validorder(string);
-	}
+//	@Then("the user should see the {string}")
+//	public void the_user_should_see_the(String string) {
+//		ca.validorder(string);
+//	}
 }

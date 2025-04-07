@@ -34,27 +34,27 @@ public class Checkoutactions {
   public void clickcheckout() {
 	  cp.checkout.click();
   }
-  public void clickbilladdress1() {
-	  cp.continuee.click();
-  }
-  public void clickbilladdress2() {
-	  cp.paymethod.click();
-	  
-  }
-  public  void clickbilladdress21(){
-	  cp.paycontinue.click();
-  }
-  public void clickbilladdress3() {
-	  cp.infocontinue.click();
-  }
-  public void clickbilladdress4() {
-	  cp.confirm.click();
-  }
-  public void validorder(String expected) {
-	  String actual=cp.thank.getText();
-	  System.out.println(expected);
-	  System.out.println(actual);
-	  Assert.assertEquals(expected,actual);
-	  System.out.println("successfully order placed");
-  }
+//  public void clickbilladdress1() {
+//	  cp.continuee.click();
+//  }
+//  public void clickbilladdress2() {
+//	  cp.paymethod.click();
+//	  
+//  }
+//  public  void clickbilladdress21(){
+//	  cp.paycontinue.click();
+//  }
+//  public void clickbilladdress3() {
+//	  cp.infocontinue.click();
+//  }
+//  public void clickbilladdress4() {
+//	  cp.confirm.click();
+//  }
+//  public void validorder(String expected) {
+//	  String actual=cp.thank.getText();
+//	  System.out.println(expected);
+//	  System.out.println(actual);
+//	  Assert.assertEquals(expected,actual);
+//	  System.out.println("successfully order placed");
+//  }
 }

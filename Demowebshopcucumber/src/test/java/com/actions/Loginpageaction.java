@@ -28,7 +28,7 @@ public class Loginpageaction {
     public void getmsg() {
     	Properties prop = new Properties();
         try {
-            File file = new File("C:\\Users\\ADMIN\\eclipse-TestngAssessment\\Demowebshopcucumber\\src\\test\\resources\\Features\\text.properties"); 
+            File file = new File("C:\\Users\\ADMIN\\git\\Demwebshop_Mavenproject\\Demowebshopcucumber\\src\\test\\resources\\Features\\text.properties"); 
             FileInputStream fis = new FileInputStream(file);
             prop.load(fis);
             fis.close();
