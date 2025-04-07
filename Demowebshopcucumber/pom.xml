@@ -10,6 +10,13 @@
     <version>7.21.1</version>
 </dependency>
 <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.30</version> <!-- latest as of now -->
+    <scope>provided</scope>
+</dependency>
+
+<dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-testng</artifactId>
     <version>7.21.1</version>
