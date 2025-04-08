@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 08 06:36:48 IST 2025</td>
+<td>Started on:</td><td>Tue Apr 08 07:03:04 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>120 seconds (120030 ms)</td>
+<tr><td>Total time:</td><td>153 seconds (153915 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,72 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.runclass.runScenario()'><b>runScenario</b><br>Test class: com.runner.runclass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checkout the product in demowebshop application", "Checkout the product"</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;cart-label&quot;&gt;...&lt;/span&gt; is not clickable at point (999, 7). Other element would receive the click: &lt;div id=&quot;bar-notification&quot; class=&quot;bar-notification success&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=134.0.6998.179)
+Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50a18a19643a8b5498b0e58f0d769e98, clickElement {id=f.2298AF48A5B01EDBF9E2C026D42E60EF.d.774AB8D89E18F1B52844650E6F278507.e.230}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52347/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (50a18a19643a8b5498b0e58f0d769e98)] -&gt; xpath: //span[text()=&apos;Shopping cart&apos;]]
+Session ID: 50a18a19643a8b5498b0e58f0d769e98
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.actions.Checkoutactions.clickshopcard(Checkoutactions.java:29)
+	at com.definitions.Checkoutdefinitions.the_user_clicks_the_shopping_cart(Checkoutdefinitions.java:37)
+	at ✽.the user clicks the shopping cart(file:///C:/Users/ADMIN/git/Demwebshop_Mavenproject/Demowebshopcucumber/src/test/resources/Features/Checkout.feature:33)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace102946788", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace102946788'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;cart-label&quot;&gt;...&lt;/span&gt; is not clickable at point (999, 7). Other element would receive the click: &lt;div id=&quot;bar-notification&quot; class=&quot;bar-notification success&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=134.0.6998.179)
+Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50a18a19643a8b5498b0e58f0d769e98, clickElement {id=f.2298AF48A5B01EDBF9E2C026D42E60EF.d.774AB8D89E18F1B52844650E6F278507.e.230}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52347/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (50a18a19643a8b5498b0e58f0d769e98)] -&gt; xpath: //span[text()=&apos;Shopping cart&apos;]]
+Session ID: 50a18a19643a8b5498b0e58f0d769e98
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.actions.Checkoutactions.clickshopcard(Checkoutactions.java:29)
+	at com.definitions.Checkoutdefinitions.the_user_clicks_the_shopping_cart(Checkoutdefinitions.java:37)
+	at ✽.the user clicks the shopping cart(file:///C:/Users/ADMIN/git/Demwebshop_Mavenproject/Demowebshopcucumber/src/test/resources/Features/Checkout.feature:33)
+</pre></div></td>
+<td>32</td>
+<td>com.runner.runclass@57250572</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -81,34 +147,29 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.runner.runclass@57250572</td></tr>
 <tr>
-<td title='com.runner.runclass.runScenario()'><b>runScenario</b><br>Test class: com.runner.runclass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Gift Cards page", "Login the Demowebshop website"</td>
-<td></td>
-<td>15</td>
-<td>com.runner.runclass@57250572</td></tr>
-<tr>
 <td title='com.runner.runclass.runScenario()'><b>runScenario</b><br>Test class: com.runner.runclass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login the Demowebshop website"</td>
 <td></td>
-<td>11</td>
-<td>com.runner.runclass@57250572</td></tr>
-<tr>
-<td title='com.runner.runclass.runScenario()'><b>runScenario</b><br>Test class: com.runner.runclass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checkout the product in demowebshop application", "Checkout the product"</td>
-<td></td>
-<td>23</td>
+<td>18</td>
 <td>com.runner.runclass@57250572</td></tr>
 <tr>
 <td title='com.runner.runclass.runScenario()'><b>runScenario</b><br>Test class: com.runner.runclass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login and navigate to Gift Cards page", "Product Sorting and View Options"</td>
 <td></td>
-<td>22</td>
+<td>25</td>
 <td>com.runner.runclass@57250572</td></tr>
 <tr>
 <td title='com.runner.runclass.runScenario()'><b>runScenario</b><br>Test class: com.runner.runclass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort products and change display options", "Product Sorting and View Options"</td>
 <td></td>
-<td>30</td>
+<td>22</td>
 <td>com.runner.runclass@57250572</td></tr>
 <tr>
 <td title='com.runner.runclass.runScenario()'><b>runScenario</b><br>Test class: com.runner.runclass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Gift Cards page", "Login the Demowebshop website"</td>
 <td></td>
-<td>13</td>
+<td>20</td>
+<td>com.runner.runclass@57250572</td></tr>
+<tr>
+<td title='com.runner.runclass.runScenario()'><b>runScenario</b><br>Test class: com.runner.runclass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Gift Cards page", "Login the Demowebshop website"</td>
+<td></td>
+<td>21</td>
 <td>com.runner.runclass@57250572</td></tr>
 </table><p>
 </body>

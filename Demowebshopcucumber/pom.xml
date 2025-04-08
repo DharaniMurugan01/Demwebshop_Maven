@@ -135,6 +135,9 @@
     <artifactId>maven-surefire-plugin</artifactId>
     <version>3.5.2</version>
     <configuration>
+               <systemPropertyVariables>
+                    <extent.reporter.spark.start>true</extent.reporter.spark.start>
+                </systemPropertyVariables>
                 <suiteXmlFiles>
                     <suiteXmlFile>testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
