@@ -1,4 +1,4 @@
-@tag
+@checkout
 Feature: Checkout the product
  
   Scenario Outline: Checkout the product in demowebshop application
